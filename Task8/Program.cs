@@ -14,3 +14,7 @@ while(count <= number)
     Console.Write(count + " ");
     count++;
 }
+if (number < 1)
+{
+    Console.Write("Введите число, начиная с 1! ");
+}
